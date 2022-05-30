@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quest</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+        <!-- <ol>
+            <li>Открой дверь холодильника</li>
+            <li>Проверь срок годности</li>
+            <li>Отвлеки кота просроченой сосиской</li>
+            <li>Достань сосиску</li>
+            <li>Закрой деврь холодильника</li>
+        </ol> -->
+        <label class = "step1">
+            Комната
+            <select name="room">
+                <option value="bedroom">Спальня</option>
+                <option value="bathroom">Ванна</option>
+                <option value="kitchen">Кухня</option>
+            </select>
+        </label>
+        <hr>
+        <label>
+            Холодильник
+            <select name="fridge">
+                <option value="close">Закрыт</option>
+                <option value="open">Открыт</option>
+            </select>
+        </label>
+        <hr>
+        <div class="status">
+            <span><strong></strong></span>
+        </div>
+    
+    <script src="./script/main.js"></script>
+</body>
+</html>
